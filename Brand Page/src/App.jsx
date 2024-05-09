@@ -1,13 +1,13 @@
+import Navigation from './components/Navigation.jsx';
+import HeroSection from './components/Hero.jsx';
+
+import "./App.css";
+
 function App(){
     return (
         <div>
-            <nav>
-            <div className="logo">
-                <img src="/images/brand_logo.png" alt="logo" />
-
-
-            </div>
-            </nav>
+            <Navigation />
+            <HeroSection />
         </div>
     )
 }
